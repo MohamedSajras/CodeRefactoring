@@ -67,7 +67,7 @@ def main():
         if len(code)>0:
             response = get_response(prompt)
             st.subheader("Refactored Code")
-            st.code(response, language='python')
+            st.code(response, language='c#')
         else:
             st.warning("Please provide some code")
 
